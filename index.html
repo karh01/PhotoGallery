@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Photo Gallery</title>
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+           <h1>TK Photography</h1>
+        <nav>
+            <h2>Main Navigation</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">^ top</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <main><!--main content starts here-->
+            <img src="TK.png" id="about-img" alt="A Photographer capturing a picture of the sunset.">
+
+            <section id="about">
+                <h2 class="right">About</h2><!--Section start here?-->
+
+                    <p class="right">Hello!<br>
+                    I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+            </section>
+
+            <section id="gallery">
+                <h2 class="left">Gallery</h2>
+                    <p class="left">Here are some highlights of my work. 
+                       The locations and year are in the caption.</p>
+                
+                <figure class="row-1">
+                    <img src="Chile.png" alt="a sunset at a rocky beach in Chile">
+                    <figcaption class="top-left">Chile, 2001 </figcaption>
+                </figure>
+                
+                <figure class="row-1">
+                    <img src="Guatemala.png" alt="A beautiful path that is surounded with flowers leading to a lake at sunset in Guatemala.">
+                    <figcaption class="top-left-w">Guatemala, 1997</figcaption>
+                </figure>
+                
+                <figure class="row-1">
+                    <img src="Hawaii.png" alt="An image taken from above of a mountain surrounded by bright blue water in Hawaii">
+                    <figcaption class="bottom-right-w">Hawaii,2010</figcaption>
+                </figure>
+
+                <figure class="row-2">
+                    <img src="Iran.png" alt="Image of an Iran desert with red and yellow shrubs.">
+                    <figcaption class="top-left">Iran,1999</figcaption>
+                </figure>
+
+                <figure class="row-2">
+                    <img src="Ireland.png" alt="Grassy green hills with a view of Irelands morning mist in the background.">
+                    <figcaption class="bottom-right-w">Ireland,2012</figcaption>
+                </figure>
+
+                <figure class="row-2">
+                    <img src="Italy.png" alt="A big beautiful blue lakevin Italy, with calm water as a person canoes. In the background there is a big snow-covered mountain and pine trees.">
+                    <figcaption class="bottom-left-w">Italy, 2015</figcaption>
+                </figure>
+
+                <figure class="row-3">
+                    <img src="Moab-Desert.png" alt="The sun peaks through an ark of rock in the Moab Desert.">
+                    <figcaption class="bottom-right-w">Moab Desert, 2020</figcaption>
+                </figure>
+
+                <figure class="row-3">
+                    <img src="Rocky-Mountains.png" alt="Tall structures fromed from rock, in front of a large body of water.">
+                    <figcaption class="top-left">Rocky Mountains, 2009</figcaption>
+                </figure>
+
+                <figure class="row-3">
+                    <img src="Switzerland.png" alt="Icy mountains and pine trees in Switzerland.">
+                    <figcaption class="bottom-left">Switzerland, 2014</figcaption>
+                </figure>
+
+                <figure class="row-4">
+                    <img src="UK.png" alt="Vast roaming green hills with deep valleys in the UK.">
+                    <figcaption class="bottom-right-w">UK, 2005</figcaption>
+                </figure>
+
+                <figure class="row-4">
+                    <img src="USA.png" alt="Tall green grass and yellow, red, and white flowers. the Sky is overcast with clouds.">
+                    <figcaption class="top-left-w">USA, 2021</figcaption>
+                </figure>
+
+                <figure class="row-4">
+                    <img src="Wyoming.png" alt="Orangeish light from the sun, shinging on mountains that are in the background. In the fourground there is a lake and pine trees in the middle ground. The mountains reflect in the lake.">
+                    <figcaption class="top-left-w">Wyoming, 2021</figcaption>
+                </figure>
+
+            </section>
+            </main>
+
+            <section id="contact">
+                <h2>Contact</h2>
+<p>Please fill out this form and I'll connect with you soon.</p>
+
+Your contact information
+                    <form id="contact-form" action="#" method="post">
+                        <label for="name">Name</label>
+                        <input required type="text" Name="name" id="name" placeholder="Your full name">
+
+                        <label for="email">Email</label>
+                        <input required type="text" Name="email" id="email" placeholder="Enter your email address">
+
+                        <label for="message">Message</label>
+                        <input required type="text" Name="message" id="message" placeholder="What can I help you with?">
+                        <button type="submit" id="submit" value="submit">Submit</button>
+                    </form>
+            </section>
+            <footer>
+                <p>Copyright 2021 TK Photography</p>
+            </footer>
+        </div>
+    </body>
+</html>

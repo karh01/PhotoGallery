@@ -1,0 +1,155 @@
+
+body {
+    margin: auto;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1310px;
+}
+
+main {
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+}
+
+h1 {
+    color: #007D7B;
+    display: inline-block;
+}
+
+nav {
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+nav a:hover {
+    color: #007D7B;
+}
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+nav h2 {
+    visibility: hidden;
+}
+
+[href="#top"] {
+    position: fixed;
+     background-color: #007D7B;
+    color: #fff;
+  
+}
+
+#about-img {
+    width: 850px;
+    float: left;
+}
+
+.about {
+    float: right;
+    text-align: right;
+}
+
+#about h2 {
+    font-size: 40px;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+#about {
+    font-size: 20px;
+    text-align: right;
+}
+
+#gallery h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#gallery p {
+    font-size: 20px;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.top-left {
+    font-size: 16px;
+    color: #000;
+}
+
+.bottom-left-w {
+    font-size: 16px;
+}
+
+.top-right {
+    font-size: 16px;
+}
+
+.row-1 {
+    width: 420px;
+    height: 281px;
+}
+
+.row-2 {
+    width: 420px;
+    height: 630px;
+}
+
+.row-3 {
+    width: 420px;
+    height: 281px;
+}
+
+.row-4 {
+    width: 420px;
+    height: 281px;
+}
+
+#contact {
+    text-align: center;
+    color: #fff;
+    width: 850px;
+    clear: both;
+}
+
+input {
+    font-size: 16px;
+    color: #007D7B;
+    height: 20px;
+}
+
+#contact-form label{
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    background-color: #007D7B;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
