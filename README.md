@@ -1,2 +1,2 @@
-# Photo-Gallery
+# PhotoGallery
  TK displays their photography skills
